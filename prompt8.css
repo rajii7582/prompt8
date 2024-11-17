@@ -1,0 +1,128 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}html,body{
+    height: 100%;
+    width: 100%;background-color: aliceblue;
+}.main{
+    height: 100%;
+    width: 100%;
+    background: radial-gradient(rgb(187, 168, 168), rgb(146, 146, 170), rgb(192, 209, 192));
+   
+} h1{
+ margin-left: 35%;
+ font-size: 50px;
+}.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    white-space: wrap;
+    overflow: hidden;
+    gap: 15%;
+    margin-top: 5px;
+
+  
+}.b1{
+    height: 35%;
+    width: 25%;
+   
+  background-color: aliceblue;
+  
+   border:4px solid rgb(67, 67, 138);
+   margin-left: 7%;
+   
+}.b1>img{ 
+  height: 35%;
+  width: 25%;
+  object-fit: cover;
+  border-radius: 35px;
+margin-left: 40%;
+}
+.b2{
+    height: 35%;
+    width: 25%;
+   
+  background-color: aliceblue;
+  
+   border:4px solid rgb(103, 49, 64);
+}.b2>img{ 
+    height: 35%;
+    width: 25%;
+    object-fit: cover;
+    border-radius: 35px;
+  margin-left: 40%;
+  }.container1{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 60%;
+gap: 19%;
+  
+}
+.b3{
+    height: 35%;
+    width: 25%;
+    margin-left: 25%;
+  background-color: aliceblue;
+  
+   border:4px solid rgb(107, 123, 205);
+}.b3>img{ 
+    height: 35%;
+    width: 25%;
+    object-fit: cover;
+    border-radius: 35px;
+  margin-left: 40%;
+  }
+.b4{
+    height: 35%;
+    width: 25%;
+   
+  background-color: aliceblue;
+  
+   border:4px solid rgb(18, 199, 121);
+}.b4>img{ 
+    height: 35%;
+    width: 25%;
+    object-fit: start;
+    border-radius: 35px;
+  margin-left: 40%;
+  }h4{
+    font-size: 10px;
+    font-weight: 900;
+    padding-left: 45%;
+  }i{
+    height: 10%;
+    width: 5%;
+margin-left: 20%;
+padding-top: 3px;
+  }p
+{
+    padding-top: 10px;
+    padding-left: 5%;
+    font-weight: 900;
+}
+@media(max-width:600px){
+    .main{
+        height: 100%;
+        width: 100%;
+        background: linear-gradient(rgb(255, 234, 234),rgb(115, 115, 173),rgb(199, 228, 199));
+    }h1{
+        font-size: 40px;
+    }
+    .container{
+        height: 90%;
+        width: 100%;
+        padding-top: 10%;
+        gap: 120px;
+    }h4{
+        padding-left: 15%;
+    }p{
+        font-size: 8px;
+    }.container1{
+        height: 90%;
+        width: 100%;
+        padding-bottom: 10%;
+        
+    }
+}
